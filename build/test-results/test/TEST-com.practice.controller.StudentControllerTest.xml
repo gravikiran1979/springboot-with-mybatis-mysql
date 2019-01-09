@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.practice.controller.StudentControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-06T11:26:25" hostname="RaviKiran-MacBook-Pro-52.local" time="0.033">
+  <properties/>
+  <testcase name="testSaveStudent" classname="com.practice.controller.StudentControllerTest" time="0.025"/>
+  <testcase name="testUpdateStudent" classname="com.practice.controller.StudentControllerTest" time="0.001"/>
+  <testcase name="testDeleteStudent" classname="com.practice.controller.StudentControllerTest" time="0.001"/>
+  <testcase name="testGetStudentById" classname="com.practice.controller.StudentControllerTest" time="0.001"/>
+  <testcase name="testWelcome" classname="com.practice.controller.StudentControllerTest" time="0.0"/>
+  <testcase name="testShowStudentsPage" classname="com.practice.controller.StudentControllerTest" time="0.0"/>
+  <system-out><![CDATA[bindingResult
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

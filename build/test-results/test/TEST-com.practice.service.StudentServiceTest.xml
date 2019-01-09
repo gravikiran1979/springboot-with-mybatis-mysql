@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.practice.service.StudentServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-06T11:26:26" hostname="RaviKiran-MacBook-Pro-52.local" time="0.025">
+  <properties/>
+  <testcase name="testSaveStudent" classname="com.practice.service.StudentServiceTest" time="0.002"/>
+  <testcase name="testUpdateStudent" classname="com.practice.service.StudentServiceTest" time="0.001"/>
+  <testcase name="testDeleteStudent" classname="com.practice.service.StudentServiceTest" time="0.002"/>
+  <testcase name="testGetAllStudents" classname="com.practice.service.StudentServiceTest" time="0.002"/>
+  <testcase name="testGetStudentById" classname="com.practice.service.StudentServiceTest" time="0.0"/>
+  <testcase name="testGetStudentByName" classname="com.practice.service.StudentServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

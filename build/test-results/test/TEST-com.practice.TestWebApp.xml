@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.practice.TestWebApp" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-06-06T11:26:31" hostname="RaviKiran-MacBook-Pro-52.local" time="0.143">
+  <properties/>
+  <testcase name="testSaveStudent" classname="com.practice.TestWebApp" time="0.054"/>
+  <testcase name="testUpdateStudent" classname="com.practice.TestWebApp" time="0.019"/>
+  <testcase name="testDeleteStudent" classname="com.practice.TestWebApp" time="0.01"/>
+  <testcase name="testGetStudentById" classname="com.practice.TestWebApp" time="0.011"/>
+  <testcase name="testWelcome" classname="com.practice.TestWebApp" time="0.009"/>
+  <testcase name="testShowStudentsPage" classname="com.practice.TestWebApp" time="0.009"/>
+  <testcase name="contextLoads" classname="com.practice.TestWebApp" time="0.009"/>
+  <system-out><![CDATA[2017-06-06 16:56:31.309  INFO 1033 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.practice.TestWebApp], using SpringBootContextLoader
+2017-06-06 16:56:31.310  INFO 1033 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.practice.TestWebApp]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-06 16:56:31.310  INFO 1033 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.practice.TestWebApp]: TestWebApp does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-06 16:56:31.317  INFO 1033 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.practice.SpringBootWithMybatisMysqlApplication for test class com.practice.TestWebApp
+2017-06-06 16:56:31.321  INFO 1033 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-06 16:56:31.325  INFO 1033 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@76e223b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5bd520a7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4455af45, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f68a57c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@78f0ea82, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a523d23, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@639484ab, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@390d8ee0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@46d6c7b9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5d764165, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1a0037bc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4fafc092]
+2017-06-06 16:56:31.349  INFO 1033 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-06-06 16:56:31.349  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-06-06 16:56:31.384  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 35 ms
+bindingResult
+2017-06-06 16:56:31.398  INFO 1033 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-06-06 16:56:31.398  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-06-06 16:56:31.411  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 13 ms
+2017-06-06 16:56:31.420  INFO 1033 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-06-06 16:56:31.420  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-06-06 16:56:31.424  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
+2017-06-06 16:56:31.434  INFO 1033 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-06-06 16:56:31.435  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-06-06 16:56:31.439  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
+2017-06-06 16:56:31.448  INFO 1033 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-06-06 16:56:31.448  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-06-06 16:56:31.452  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
+2017-06-06 16:56:31.460  INFO 1033 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-06-06 16:56:31.460  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-06-06 16:56:31.464  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
+2017-06-06 16:56:31.471  INFO 1033 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-06-06 16:56:31.472  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-06-06 16:56:31.475  INFO 1033 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 3 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

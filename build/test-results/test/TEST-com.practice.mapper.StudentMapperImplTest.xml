@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.practice.mapper.StudentMapperImplTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-06T11:26:25" hostname="RaviKiran-MacBook-Pro-52.local" time="0.089">
+  <properties/>
+  <testcase name="testSaveStudent" classname="com.practice.mapper.StudentMapperImplTest" time="0.002"/>
+  <testcase name="testUpdateStudent" classname="com.practice.mapper.StudentMapperImplTest" time="0.001"/>
+  <testcase name="testDeleteStudent" classname="com.practice.mapper.StudentMapperImplTest" time="0.001"/>
+  <testcase name="testGetAllStudents" classname="com.practice.mapper.StudentMapperImplTest" time="0.005"/>
+  <testcase name="testGetStudentById" classname="com.practice.mapper.StudentMapperImplTest" time="0.008"/>
+  <testcase name="testGetStudentByName" classname="com.practice.mapper.StudentMapperImplTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
